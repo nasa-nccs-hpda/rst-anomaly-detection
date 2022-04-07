@@ -1,7 +1,11 @@
 # Byte-compiled / optimized / DLL files
+.DS_Store
 __pycache__/
 *.py[cod]
 *$py.class
+*.pkl
+*.h5
+*.npy
 
 # C extensions
 *.so

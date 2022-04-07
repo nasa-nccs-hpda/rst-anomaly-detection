@@ -1,0 +1,44 @@
+# original training data location
+data_regex: '/Users/jacaraba/Desktop/development/ilab/rst-anomaly-detection/data/*.h5'
+
+# directory to store output training data and model
+data_dir: 'output/'
+
+# tile_size to feed the network
+tile_size: 512
+
+# number of true pixels that conform a true observation
+num_true_pixels: 3
+
+# number of training tiles to extract
+num_train_tiles: 5
+
+# number of validation tiles to extract
+num_val_tiles: 5
+
+# number of test tiles to extract
+num_test_tiles: 5
+
+# classes to work from
+classes:
+  - 'CosmicRays'
+
+coco_info:
+  "description": "maskrcnn model yeah"
+  "url": "https://www.nccs.nasa.gov"
+  "version": "1.0"
+  "year": "2021"
+  "contributor": "TBD"
+  
+# model hyperparameters
+learning_rate: 0.005
+momentum: 0.9
+weight_decay: 0.0005
+batch_size: 8
+
+# model training parameters
+max_epochs: 3
+init_epoch: 0
+pretrained: False
+
+model_filename: 'output/model.pkl'
