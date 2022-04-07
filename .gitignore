@@ -6,6 +6,7 @@ __pycache__/
 *.pkl
 *.h5
 *.npy
+*.json
 
 # C extensions
 *.so
