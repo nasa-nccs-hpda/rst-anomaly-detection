@@ -12,6 +12,15 @@ of anomalies in RST sensor imagery.
 - Understand sensor anomalies and plan for the future of the mission
 - Use deep learning models (segmentation and object detection) to analyze anomalies in RST data
 
+## Download
+
+- Specific Version: Under releases, hit download to the specific version you wish to download.
+- Latest Version:
+
+```bash
+wget https://raw.githubusercontent.com/nasa-nccs-hpda/rst-anomaly-detection/main/notebooks/RST_MaskRCNN.ipynb
+```
+
 ## Login to ADAPT JupyterHub
 
 To leverage NCCS ADAPT resources, you will need to login to ADAPT JupyterHub. The steps are outlined below.
